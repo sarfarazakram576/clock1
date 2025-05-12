@@ -25,7 +25,7 @@ setInterval(() => {
 
   let am = h >= 12 ? "PM" : "AM";
   // current 24hr clock to 12hr clock
-  if (h >= 12) {
+  if (h > 12) {
     h = h - 12;
   }
   if (h === 0) {
